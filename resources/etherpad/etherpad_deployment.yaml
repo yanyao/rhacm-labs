@@ -35,7 +35,7 @@ spec:
           value: ether
         - name: NODE_ENV
           value: production
-        image: quay.io/gpte-devops-automation/etherpad:latest
+        image: yanyao/etherpad-multiarch:1.8.0
         imagePullPolicy: Always
         name: etherpad
         ports:
