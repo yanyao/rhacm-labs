@@ -32,7 +32,7 @@ spec:
             secretKeyRef:
               key: database-name
               name: ether
-        image: rhscl/postgresql-10-rhel7:l
+        image: registry.redhat.io/rhscl/postgresql-10-rhel7:l
         imagePullPolicy: IfNotPresent
         livenessProbe:
           exec:
